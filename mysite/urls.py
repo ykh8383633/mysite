@@ -17,6 +17,6 @@ from django.contrib import admin
 from django.urls import include, path
 
 urlpatterns = [
-	path('polls/', include('polls.urls')),
+	path('polls/', include('polls.urls')), # 최상위 url과 앱 url과 연결 (include 함수는 다른 url을 참조하도록 함)
     path('admin/', admin.site.urls),
 ]
