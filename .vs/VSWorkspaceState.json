@@ -3,7 +3,9 @@
     "",
     "\\mysite",
     "\\polls",
-    "\\polls\\migrations"
+    "\\polls\\migrations",
+    "\\polls\\templates",
+    "\\polls\\templates\\polls"
   ],
   "SelectedNode": "\\mysite\\urls.py",
   "PreviewInSolutionExplorer": false

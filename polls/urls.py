@@ -2,6 +2,8 @@ from django.urls import path
 
 from . import views
 
+
+app_name = 'polls'
 urlpatterns = [
 	path('', views.index, name = 'index'), # views에 index를 앱url과 연결
 	path('<int:question_id>/', views.detail, name = 'detail'),
